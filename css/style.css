@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+.container{
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.background{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    position: absolute;
+}
+header{
+    display: flex;
+    width: 1920px;
+    position: relative;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+}
+.fa-umbrella-beach{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    transition-property: all;
+    transition-duration: 1.3s;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+}
+.fa-umbrella-beach:hover{
+    font-size: 45px;
+    color: #C2B280;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+.nav_list{
+    font-family: 'Nanum Brush Script';
+    font-size: 32px;
+    color: white;
+    transition-property: all;
+    transition-duration: 1.3s;
+    border-radius: 15px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+
+
+}
+.nav_list:hover{
+    font-size: 35px;
+    background-color: #DCB47A;
+}
+.fa-bars{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    transition-property: all;
+    transition-duration: 1.3s;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+}
+.fa-bars:hover{
+    font-size: 45px;
+    color: #C2B280;
+    cursor: pointer;
+}
+.info{
+    width: 50%;
+    position: absolute;
+    margin-top: 250px;
+    padding: 0 50px;
+}
+.box{
+    animation-name: boxAnimation;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    background-color: #DCB47A;
+    width: 100px;
+    height: 1px;
+    margin-top: 10px;
+}
+@keyframes boxAnimation{
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 450px;
+        
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+.box1{
+    animation-name: boxAnimation1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    background-color: #DCB47A;
+    width: 100px;
+    height: 1px;
+    margin-top: 10px;
+}
+@keyframes boxAnimation1{
+    0%{
+        margin-left: 450px;
+    }
+    50%{
+        margin-left: 0px;
+        
+    }
+    100%{
+        margin-left: 450px;
+    }
+}
+.title{
+    color: white;
+    font-size: 75px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+}
+.text{
+    font-family: 'Nanum Brush Script';
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+}
+.info_button{
+    border: 0px;
+    padding: 3px 3px;
+    background-color: azure;
+    transition: all;
+    transition-duration: 1.2s;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.info_button:hover{
+    background-color: #C2B280;
+    scale: 1.2;
+    cursor: pointer;
+    color: white;
+}
+.info_button_text{
+    font-family: 'Nanum Brush Script';
+    text-align: center;
+    font-size: 24px;
+}
+
+
